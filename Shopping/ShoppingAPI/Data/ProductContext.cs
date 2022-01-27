@@ -34,6 +34,15 @@ namespace ShoppingClient.Data
 
         {
             return new List<Product>(){
+                      
+                        new Product()
+                        {
+                            Name = "India-IPhone X",
+                            Description = "This Inida's phone is the company's biggest change to its flagship smartphone in years. It includes a borderless.",
+                            ImageFile = "product-A1.png",
+                            Price = 50.00M,
+                            Category = "India Smart Phone"
+                        },
                         new Product()
                         {
                             Name = "IPhone X",
